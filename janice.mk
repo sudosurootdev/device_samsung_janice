@@ -12,7 +12,8 @@ PRODUCT_COPY_FILES += \
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
-    media.aac_51_output_enabled=true
+    media.aac_51_output_enabled=true \
+    ro.gps.init=true
 
 # GPS
 PRODUCT_COPY_FILES += \
